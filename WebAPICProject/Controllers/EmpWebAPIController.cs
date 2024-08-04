@@ -19,6 +19,8 @@ namespace WebAPICProject.Controllers
              EmpRef = _EmpRef;
         }
 
+        //This Method is used to Insert the Records
+
         [HttpPost]
         [Route("InsertEmployee")]
         public async Task<IActionResult> InsertEmployee(Employee Emp)
